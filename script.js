@@ -7,3 +7,5 @@ if (input % 2 == 0) {
 } else {
     console.log(y)
 }
+
+// 2 - masala
