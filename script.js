@@ -77,3 +77,77 @@
 //     console.log(baho)
       
 // }
+
+// 5 misol
+
+// function studentGrade(x) {
+//   let result = "";
+//   if (x >= 1 && x <= 59) {
+//     result = "2";
+//   } else if (x >= 60 && x <= 69) {
+//     result = "3";
+//   } else if (x >= 70 && x <= 89) {
+//     result = "4";
+//   } else if (x >= 90 && x <= 100) {
+//     result = "5";
+//   } else {
+//     return "Noto'g'ri ball kiritildi";
+//   }
+
+//   let status = x >= 60 ? "o'tdi" : "o'tmadi";
+//   return Talabaning bahosi ${result}, imtihondan ${status};
+// }
+
+
+// 2 normativ misolari
+// 1 chisi
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+// 2 chisi
+
+// let n = prompt("n ni kiriting:");
+// n = parseInt(n); 
+// let sum = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   sum += i;
+// }
+
+// console.log("Yig'indi:", sum);
+// 3 chisi
+// let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//   let son = parseInt(prompt(i + "-sonni kiriting:"));
+//   if (son > 0 && son % 2 === 0) {
+//     sum += son;
+//   }
+// }
+// console.log("Musbat va juft sonlar yig'indisi:", sum);
+
+// 4 chisi
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("Число " + i + " кратно и 3, и 5");
+//   }
+// }
+// 5 chisi
+// let arr = [2, -8, 2, 1, 5, 4, -15, 9, 13];
+
+// let max = Math.max(...arr);
+// let min = Math.min(...arr);
+
+// console.log("Самый большой элемент:", max);  
+// console.log("Самый маленький элемент:", min);  
+
+
+//3 normativ misolari
+
+// 1chi masalasi
+// let arr1 = [25, 3, 8, 9, 7];
+// let last = arr1[arr1.length - 1];
+// arr1.unshift(last ** 2);
+// console.log(arr1); 
