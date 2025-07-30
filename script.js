@@ -153,4 +153,35 @@
 // console.log(arr1); 
 
 
-// 2
+// 2 masalasi
+
+// let arr2 = [9, 8, 5, 1, 6, 4];
+// let evenSum = arr2.filter(n => n % 2 === 0).reduce((a, b) => a + b, 0);
+// console.log("2)", evenSum); // 18
+
+
+// 3 masalasi
+
+// let arr3 = [2, -8.9, 1.5, 3.0, 5];
+// let positiveSum = arr3.filter(n => n > 0).reduce((a, b) => a + b, 0);
+// console.log("3)", positiveSum); 
+
+
+// 4 masalasi
+
+// let arr4 = [6, 1, 3, 5, 6, 2, 0, 4];
+// let squaredFilteredSorted = arr4
+//   .filter(n => n > 2)
+//   .map(n => n * n)
+//   .sort((a, b) => a - b);
+// console.log("4)", squaredFilteredSorted); // [9, 16, 25, 36, 36]
+
+
+
+// 5 masalasi
+
+// let arr5 = [1, [2, 3], [4, [5, 6, 7]]];
+// function flattenAndFilterOdds(arr) {
+//   return arr.flat(Infinity).filter(n => n % 2 === 1);
+// }
+// console.log("5)", flattenAndFilterOdds(arr5)); // [1, 3, 5, 7]
