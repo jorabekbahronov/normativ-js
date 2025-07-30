@@ -262,3 +262,41 @@
 // let aboveAvg = students.filter(s => s.score > avg);
 
 // console.log("5)", aboveAvg);
+
+
+// 6 normativ misolari
+
+
+ // 1 chi masalasi
+// let fruitStore = {
+//   obj1: {
+//     nomi: "Mandarin",
+//     narxi: 15000,
+//     turi: "Meva",
+//     importmi: false
+//   },
+  // 2 chi masalasi
+//   obj2: {
+//     nomi: "Banan",
+//     narxi: 18000,
+//     turi: "Tropik",
+//     importmi: true
+//   },
+// 3 chi masalasi
+//   obj3: {
+//     nomi: "Apelsin",
+//     narxi: 17000,
+//     turi: "Sitrus",
+//     importmi: true
+//   },
+// 4, 5 chi masalasi
+//   chiqar: function() {
+//     console.log("Mahsulotlar:");
+//     console.log(${this.obj1.nomi} - ${this.obj1.narxi} so'm - ${this.obj1.turi} - ${this.obj1.importmi ? "Import" : "Mahalliy"});
+//     console.log(${this.obj2.nomi} - ${this.obj2.narxi} so'm - ${this.obj2.turi} - ${this.obj2.importmi ? "Import" : "Mahalliy"});
+//     console.log(${this.obj3.nomi} - ${this.obj3.narxi} so'm - ${this.obj3.turi} - ${this.obj3.importmi ? "Import" : "Mahalliy"});
+//   }
+// };
+
+
+// fruitStore.chiqar();
