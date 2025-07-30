@@ -185,3 +185,38 @@
 //   return arr.flat(Infinity).filter(n => n % 2 === 1);
 // }
 // console.log("5)", flattenAndFilterOdds(arr5)); // [1, 3, 5, 7]
+
+
+
+
+
+// 4 normativ misolari
+
+// 1chi masalasi
+
+// let arr1 = ['Muhammad', 'Erik', 'Yusufjon', 'Asad'];
+// let result1 = arr1.filter(name => name.length > 5);
+// console.log("1)", result1); // ['Muhammad', 'Yusufjon']
+
+// 2 chi masalasi
+// let arr2 = [5, 8, 1, 6, 0, 3];
+// let max2 = Math.max(...arr2);
+// let min2 = Math.min(...arr2);
+// console.log("2) Max:", max2, "Min:", min2); // Max: 8 Min: 0
+
+
+//3 chi masalai
+// let arr3 = ['Sardorbek', 'Ali', 'Bekzod', 'Erkinbek'];
+// let result3 = arr3.filter(name => name.toLowerCase().endsWith("bek"));
+// console.log("3)", result3); // ['Sardorbek', 'Erkinbek']
+
+//4 chi masalasi
+// let arr4 = [1, 2, 3, 4, 5];
+// let set = new Set([2, 4, 6, 7]);
+// let result4 = arr4.filter(item => set.has(item));
+// console.log("4)", result4); // [2, 4]
+
+// 5 chi masalasi
+// let arr5 = [1, 2, 2, 3, 4, 4, 5];
+// let result5 = arr5.filter(item => arr5.indexOf(item) === arr5.lastIndexOf(item));
+// console.log("5)", result5); // [1, 3, 5]
