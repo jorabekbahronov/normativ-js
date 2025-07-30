@@ -151,3 +151,6 @@
 // let last = arr1[arr1.length - 1];
 // arr1.unshift(last ** 2);
 // console.log(arr1); 
+
+
+// 2
