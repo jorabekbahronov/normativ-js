@@ -220,3 +220,45 @@
 // let arr5 = [1, 2, 2, 3, 4, 4, 5];
 // let result5 = arr5.filter(item => arr5.indexOf(item) === arr5.lastIndexOf(item));
 // console.log("5)", result5); // [1, 3, 5]
+
+// 5 normativ misolari
+
+
+// 1 chi masalasi
+// let obj1 = {
+//   name: "Ali",
+//   age: 20
+// };
+// console.log("1)", obj1);
+
+// // 2 chi masalasi
+// let student = { name: "Ali", mark: 90 };
+// let square = student.mark * student.mark;
+// console.log("2)", square); // 8100
+
+// 3 chi masalasi
+// let obj3 = { name: "Salim", age: 13 };
+// console.log("3)", obj3.age); // 13
+
+// 4 chi masalasi
+// let obj4 = { name: "Ali", age: 22, city: "Tashkent" };
+// let newObj = {
+//   name: obj4.name,
+//   city: obj4.city
+// };
+// console.log("4)", newObj); // {name: "Ali", city: "Tashkent"}
+
+ // 5 masalasi
+// let students = [
+//   { name: "Ali", score: 60 },
+//   { name: "Vali", score: 80 },
+//   { name: "Salim", score: 40 },
+//   { name: "Karim", score: 90 }
+// ];
+
+// let avg =
+//   students.reduce((sum, s) => sum + s.score, 0) / students.length;
+
+// let aboveAvg = students.filter(s => s.score > avg);
+
+// console.log("5)", aboveAvg);
