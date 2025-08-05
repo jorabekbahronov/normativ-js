@@ -46,7 +46,7 @@
 
 
 // function name(params) {
-    
+
 // }
 
 
@@ -75,7 +75,7 @@
 //     }
 
 //     console.log(baho)
-      
+
 // }
 
 // 5 misol
@@ -223,80 +223,110 @@
 
 // 5 normativ misolari
 
-
-// 1 chi masalasi
-// let obj1 = {
-//   name: "Ali",
-//   age: 20
+// let obj = {
+//   valyuta: "dollar",
+//   miqdor: 100,
+//   kimsanbek: {
+//     valyuta: "dollar",
+//     miqdor: 55
+//   },
+//   avaz: {
+//     ismi: "Avaz",
+//     familiyasi: "Ganiyev",
+//     yoshi: 37,
+//     yoshi_katta: true
+//   },
+//   holat: {
+//     ism: "Anvar",
+//     age: 22,
+//     city: "Tashkent"
+//   },
+//   talabalar: [
+//     { ism: "Ali", yosh: 20, foiz: 60 },
+//     { ism: "Vali", yosh: 25, foiz: 90 },
+//     { ism: "Salim", yosh: 50, foiz: 30 }
+//   ]
 // };
-// console.log("1)", obj1);
 
-// // 2 chi masalasi
-// let student = { name: "Ali", mark: 90 };
-// let square = student.mark * student.mark;
-// console.log("2)", square); // 8100
+// // 1
+// console.log(obj);
 
-// 3 chi masalasi
-// let obj3 = { name: "Salim", age: 13 };
-// console.log("3)", obj3.age); // 13
+// // 2
+// console.log(obj.kimsanbek.valyuta, obj.kimsanbek.miqdor);
 
-// 4 chi masalasi
-// let obj4 = { name: "Ali", age: 22, city: "Tashkent" };
-// let newObj = {
-//   name: obj4.name,
-//   city: obj4.city
-// };
-// console.log("4)", newObj); // {name: "Ali", city: "Tashkent"}
+// // 3
+// console.log(obj.avaz.yoshi > 30); // true
 
- // 5 masalasi
-// let students = [
-//   { name: "Ali", score: 60 },
-//   { name: "Vali", score: 80 },
-//   { name: "Salim", score: 40 },
-//   { name: "Karim", score: 90 }
-// ];
+// // 4
+// console.log(obj.holat.ism, obj.holat.age, obj.holat.city);
 
-// let avg =
-//   students.reduce((sum, s) => sum + s.score, 0) / students.length;
-
-// let aboveAvg = students.filter(s => s.score > avg);
-
-// console.log("5)", aboveAvg);
+// // 5
+// obj.talabalar.forEach(talaba => {
+//   if (talaba.foiz >= 70) {
+//     console.log(talaba);
+//   }
+// });
 
 
 // 6 normativ misolari
-
-
- // 1 chi masalasi
-// let fruitStore = {
-//   obj1: {
-//     nomi: "Mandarin",
-//     narxi: 15000,
-//     turi: "Meva",
-//     importmi: false
-//   },
-  // 2 chi masalasi
-//   obj2: {
-//     nomi: "Banan",
-//     narxi: 18000,
-//     turi: "Tropik",
-//     importmi: true
-//   },
-// 3 chi masalasi
-//   obj3: {
-//     nomi: "Apelsin",
-//     narxi: 17000,
-//     turi: "Sitrus",
-//     importmi: true
-//   },
-// 4, 5 chi masalasi
-//   chiqar: function() {
-//     console.log("Mahsulotlar:");
-//     console.log(${this.obj1.nomi} - ${this.obj1.narxi} so'm - ${this.obj1.turi} - ${this.obj1.importmi ? "Import" : "Mahalliy"});
-//     console.log(${this.obj2.nomi} - ${this.obj2.narxi} so'm - ${this.obj2.turi} - ${this.obj2.importmi ? "Import" : "Mahalliy"});
-//     console.log(${this.obj3.nomi} - ${this.obj3.narxi} so'm - ${this.obj3.turi} - ${this.obj3.importmi ? "Import" : "Mahalliy"});
-//   }
+//  1 chi masalasi
+// obj.yuza = function(uzunlik, eni) {
+//   return uzunlik * eni;
 // };
+// console.log("Yuza:", obj.yuza(5, 10)); // Пример: 5*10 = 50
+
+ // 2chi masalasi
+// console.log("Barcha qiymatlar:");
+// for (let key in obj) {
+//   console.log(key, ":", obj[key]);
+// }console.log("Barcha qiymatlar:");
+// for (let key in obj) {
+//   console.log(key, ":", obj[key]);
+// }
 
 
-// fruitStore.chiqar();
+//3chi masalasi
+
+
+
+// obj.anor = 20;
+// console.log("Yangi anor narxi:", obj.anor);
+
+// 4 chi masalasi
+// delete obj.users.vali;
+// console.log("Vali o'chirildi:", obj.users);
+
+// 5 chisi
+
+// let allFruits = ["mandarin", "banan", "apelsin"];
+// console.log("Yo'q mevalar:");
+// for (let fruit of allFruits) {
+//   if (!(fruit in obj)) {
+//     console.log(fruit);
+//   }
+// }
+
+
+// 7 normativ misolari
+
+// 1 chi masalasi
+
+//  let obj = {
+//    Salim, 25
+//    Ali, 17
+//    Malik 2
+//  }
+
+// let obj = {
+//   salim: 25,
+//   ali: 17,
+//   malik: 2
+// }
+
+// for (let key in obj) {
+//   console.log(obj[key] + 2);
+// }
+
+
+
+ users = [{name: "Ali", age: 20}, {name: "Vali", age: 25}, {name: "Sami", age: 22}].
