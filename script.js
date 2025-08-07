@@ -203,7 +203,7 @@
 // let max2 = Math.max(...arr2);
 // let min2 = Math.min(...arr2);
 // console.log("2) Max:", max2, "Min:", min2); // Max: 8 Min: 0
-
+ 
 
 //3 chi masalai
 // let arr3 = ['Sardorbek', 'Ali', 'Bekzod', 'Erkinbek'];
@@ -311,22 +311,73 @@
 
 // 1 chi masalasi
 
-//  let obj = {
-//    Salim, 25
-//    Ali, 17
-//    Malik 2
-//  }
+//  let obj = { Salim: 25, Ali: 17, Malika: 21 };
+// console.log(obj); // Выведет: { Salim: 25, Ali: 17, Malika: 21 }
 
-// let obj = {
-//   salim: 25,
-//   ali: 17,
-//   malik: 2
+// 2 chi masalasi
+
+// let users = [
+//   { name: 'Ali', age: 20 },
+//   { name: 'Vali', age: 25 }
+// ];
+
+// console.log("Ali:", users[0].age);  // Ali: 20
+// console.log("Vali:", users[1].age); // Vali: 25
+
+
+// 3 chi masalasi
+
+//  let obj1 = {
+//   a: 10,
+//   b: "hello",
+//   c: true
+// };
+
+// // Выводим все ключи и значения
+// for (let key in obj1) {
+//   console.log(${key}: ${obj1[key]});
+// }
+// // Вывод: 
+// // a: 10
+// // b: hello
+// // c: true
+
+
+// 4 chi masalasi
+
+// let person = {
+//   name: "Lola",
+//   age: null,
+//   job: "Teacher",
+//   city: null
+// };
+
+// // Удалим поля с null значением
+// for (let key in person) {
+//   if (person[key] === null) {
+//     delete person[key];
+//   }
 // }
 
-// for (let key in obj) {
-//   console.log(obj[key] + 2);
-// }
+// console.log(person);
+// Результат: { name: "Lola", job: "Teacher" }
 
 
+// 5 chisi
 
- users = [{name: "Ali", age: 20}, {name: "Vali", age: 25}, {name: "Sami", age: 22}].
+
+// const users = [
+//   { name: "Ali", age: 17 },
+//   { name: "Vali", age: 19 },
+//   { name: "Sami", age: 21 }
+// ];
+
+// // Фильтруем только тех, кто старше 18
+// const result = users.filter(user => user.age > 18);
+// console.log(result);
+
+// // Вывод: 
+// [
+//   { name: "Vali", age: 19 },
+//   { name: "Sami", age: 21 }
+// ]
